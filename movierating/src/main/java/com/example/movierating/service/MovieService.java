@@ -65,8 +65,4 @@ public class MovieService {
                 .collect(Collectors.toList());
     }
 
-    //Helper method to calculate average rating
-    private double avgRating(List<Rating> ratings) {
-        return ratings.stream().mapToInt(Rating::getStars).average().orElse(0.0);
-    }
 }

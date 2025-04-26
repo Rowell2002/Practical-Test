@@ -62,7 +62,7 @@ public class Movie {
         this.ratings = ratings;
     }
 
-    // --- Helper Method to add a rating ---
+
     public void addRating(Rating rating) {
         ratings.add(rating);
         rating.setMovie(this);
